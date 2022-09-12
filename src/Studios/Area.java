@@ -1,5 +1,7 @@
 package Studios;
 
+import Studios.areaofacircle.Circle;
+
 import java.util.Scanner;
 
 public class Area {
