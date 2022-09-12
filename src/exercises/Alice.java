@@ -16,10 +16,20 @@ public class Alice {
         Scanner stringSearch = new Scanner(System.in);
         System.out.println("Search word: ");
         String word = stringSearch.nextLine().toLowerCase();
-        stringSearch.close();
+
 
         boolean result = paragraph.contains(word);
+        Integer searchedWord = paragraph.indexOf(word);
+        Integer searchLength = word.length();
+
         System.out.println("The paragraph contains the word: " + word + ": " + result);
+        System.out.println("The word starts at index: " + searchedWord + ", and is " + searchLength + " characters long.");
+
+        String modifiedSentence = paragraph.replace(word, "");
+        System.out.println(modifiedSentence);
+
+        stringSearch.close();
+
 
     }
 
