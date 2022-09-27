@@ -20,7 +20,7 @@ public class Arrays {
 
         // Solution provided in book produces error:
         String[] seussArray = seuss.split("\\.");
-        System.out.println(Arrays.toString(seussArray));
+        System.out.println(seussArray.toString());
 
 
 
