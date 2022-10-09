@@ -11,7 +11,7 @@ public class Main {
             // implemented stuff to remove angry red line after unexpected merge error
             @Override
             public String noise() {
-                return null;
+                return "I Love Halloween!";
             }
         };
 

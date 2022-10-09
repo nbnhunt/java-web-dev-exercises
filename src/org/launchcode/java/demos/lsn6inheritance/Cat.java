@@ -62,5 +62,6 @@ public abstract class Cat {
         hungry = false;
     }
 
+    // an abstract method is a method in an abstract class that does not have a body, just a signature(name) and be marked abstract.
     public abstract String noise ();
 }

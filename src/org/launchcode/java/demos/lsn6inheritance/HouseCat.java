@@ -18,7 +18,7 @@ public class HouseCat extends Cat {
         if (isSatisfied()) {
             return "Hello, my name is " + name + "!";
         } else {
-            return "super.noise() on the next line";
+            return "super.noise() on the next line was removed because the method could not be reached.";
             //super.noise();
         }
     }
@@ -26,4 +26,7 @@ public class HouseCat extends Cat {
     public String purr() {
         return "I'm a HouseCat";
     }
+    // casting and polymorphism.
+    // calling methods from this is tricky. see chapter 7.5 for details.
+    Cat suki = new HouseCat("Suki", 8);
 }
