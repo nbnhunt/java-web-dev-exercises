@@ -7,7 +7,13 @@ public class Main {
         garfield.eat();
         System.out.println(garfield.isTired());
 
-        Cat salem = new Cat(8);
+        Cat salem = new Cat(8) {
+            // implemented stuff to remove angry red line after unexpected merge error
+            @Override
+            public String noise() {
+                return null;
+            }
+        };
 
     }
 }

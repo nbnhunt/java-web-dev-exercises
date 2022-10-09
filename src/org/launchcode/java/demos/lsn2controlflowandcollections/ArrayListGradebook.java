@@ -16,6 +16,8 @@ public class ArrayListGradebook {
     // name and arguments
     public static void main(String[] args) {
 
+        // declare and initialize two objects
+
         ArrayList<String> students = new ArrayList<>();
         ArrayList<Double> grades = new ArrayList<>();
         Scanner input = new Scanner(System.in);

@@ -25,5 +25,9 @@ public class Arrays {
 
 
     }
+// added to remove angry red lines from line 23 at .toString(seussArray)
+    private static boolean toString(String[] seussArray) {
+        return false;
+    }
 }
 // add to commit

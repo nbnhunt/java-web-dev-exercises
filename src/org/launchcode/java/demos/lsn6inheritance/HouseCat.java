@@ -18,7 +18,8 @@ public class HouseCat extends Cat {
         if (isSatisfied()) {
             return "Hello, my name is " + name + "!";
         } else {
-            return super.noise();
+            return "super.noise() on the next line";
+            //super.noise();
         }
     }
 

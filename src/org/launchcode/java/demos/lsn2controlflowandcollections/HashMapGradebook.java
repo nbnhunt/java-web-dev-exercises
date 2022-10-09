@@ -35,6 +35,15 @@ public class HashMapGradebook {
         System.out.println("\nClass roster:");
         double sum = 0.0;
 
+        // check out this insane looping for hashmaps
+        // for (Map.Entry<String, Double> student : students.entrySet())
+        // student is the iterator variable of type Map.Entry<String, Double>
+        // which is a lot
+        // Map.Entry is a class used specifically for searching key/value pairs in hashmaps
+        // Map.Entry has a getKey and getValue method for pulling from the map
+        // you could (String student : students.keySet()) for the keys
+        // and (double grade : students.values()) for the values
+
         for (Map.Entry<String, Double> student : students.entrySet()) {
             System.out.println(student.getKey() + " (" + student.getValue() + ")");
             sum += student.getValue();
