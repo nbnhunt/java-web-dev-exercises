@@ -3,8 +3,17 @@ package org.launchcode.java.demos.lsn2controlflowandcollections;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// a class is a template for creating an object
+// array. arrayList, and hashMap are all objects
+// objects are structures that have a state and as et of behaviors
+
+// access modifier, object, name of object
 public class ArrayListGradebook {
 
+    // access modifier,
+    // method type (static means it can be called without creating an instance),
+    // return type (void = none),
+    // name and arguments
     public static void main(String[] args) {
 
         ArrayList<String> students = new ArrayList<>();
